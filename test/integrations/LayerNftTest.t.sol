@@ -2,8 +2,8 @@
 pragma solidity ^0.8.33;
 
 import {Test} from "forge-std/Test.sol";
-import {LayerNFT} from "../src/LayerNFT.sol";
-import {DeployLayerNft} from "../script/DeployLayerNft.s.sol";
+import {LayerNFT} from "../../src/LayerNFT.sol";
+import {DeployLayerNft} from "../../script/DeployLayerNft.s.sol";
 
 contract LayerNftTest is Test {
     DeployLayerNft public deployer;
